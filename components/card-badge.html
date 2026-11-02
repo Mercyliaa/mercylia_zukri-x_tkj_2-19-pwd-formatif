@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Badge</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        #top{
+            padding: 30px;
+            background-color: #222;
+            color: white;
+            text-align: center;
+        }
+
+        .card{
+            position: relative;
+            width: 360px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 2px solid #333;
+            background-color: white;
+            border-radius: 12px;
+        }
+
+        .card img{
+            width: 100%;
+            height: 180px;
+            display: block;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card .badge{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+            background-color: rgb(237, 58, 94);
+            color: white;
+
+            padding: 5px 10px;
+
+            border-radius: 8px;
+
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .card h3{
+            margin-top: 15px;
+        }
+
+        .card p{
+            line-height: 1.6;
+        }
+
+        main p{
+            width: 360px;
+            margin: 20px auto;
+            line-height: 1.8;
+        }
+
+        .back-to-top{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+
+            background-color: royalblue;
+            color: white;
+
+            text-decoration: none;
+            padding: 12px 18px;
+
+            border-radius: 10px;
+
+            z-index: 999;
+        }
+
+        .back-to-top:hover{
+            background-color: rgb(57, 57, 142);
+        }
+
+        .back-to-bottom{
+            position: fixed;
+            right: 20px;
+            bottom: 75px;
+
+            background-color: rgb(210, 101, 165);
+            color: white;
+
+            text-decoration: none;
+            padding: 12px 18px;
+
+            border-radius: 10px;
+
+            z-index: 999;
+        }
+
+        .back-to-bottom:hover{
+            background-color: rgb(206, 50, 110);
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header id="top">
+        <h1>Proyek Saya</h1>
+    </header>
+
+    <main>
+
+        <div class="card">
+
+            <span class="badge">BARU</span>
+
+            <img src="../assets/images/Mercy.jpeg" alt="Website Portofolio">
+
+            <h3>Website Portofolio</h3>
+
+            <p>
+                Website portofolio yang dibuat menggunakan HTML dan CSS
+                untuk menampilkan profil, hobi, dan proyek yang pernah saya kerjakan.
+            </p>
+
+        </div>
+
+        <p>
+            Saya terus belajar dan mengembangkan kemampuan di bidang teknologi informasi.
+        </p>
+
+        <p>
+            Proyek ini membantu saya memahami penggunaan HTML dan CSS secara lebih mendalam.
+        </p>
+
+        <p>
+            Selain membuat website, saya juga tertarik pada jaringan komputer dan keamanan siber.
+        </p>
+
+        <p>
+            Saya berusaha meningkatkan kemampuan pemrograman melalui latihan dan praktik.
+        </p>
+
+        <p>
+            Pembelajaran di jurusan TKJ membantu saya memahami teknologi dengan lebih baik.
+        </p>
+
+        <p>
+            Saya berharap dapat membuat proyek yang lebih menarik dan bermanfaat di masa depan.
+        </p>
+
+    </main>
+
+    <footer id="bottom">
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+
+    <a href="#top" class="back-to-top">Ke Atas</a>
+
+    <a href="#bottom" class="back-to-bottom">Ke Bawah</a>
+
+</body>
+</html>
