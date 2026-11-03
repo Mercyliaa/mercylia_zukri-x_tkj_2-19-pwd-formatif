@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #fdbbd3;
 }
 
 #gallery{
@@ -24,7 +24,7 @@ body{
     border: 1px solid #cccccc;
     border-radius: 10px;
     box-sizing: border-box;
-    background-color: white;
+    background-color: rgb(246, 226, 233);
 }
 
 .gallery-item img{
@@ -54,8 +54,6 @@ footer a{
 
 .gallery{
     display: grid;
-
     grid-template-columns: 2fr 1fr 1fr 1fr;
-
     gap: 20px;
 }
